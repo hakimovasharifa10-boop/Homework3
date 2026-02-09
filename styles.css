@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url(./images/factory1.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 100vh;
+}
+nav {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.tel {
+  display: flex;
+  gap: 10px;
+}
+.tel p {
+  font-size: 18px;
+}
+.email {
+  display: flex;
+  gap: 10px;
+}
+.lang {
+  display: flex;
+  gap: 10px;
+}
+.head {
+  padding: 20px 5%;
+  display: flex;
+}
+.left_head h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+.left_head {
+  width: 50%;
+  margin-top: 150px;
+}
+.left_head p {
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.btn_left {
+  background-color: #0e9e2f;
+  color: white;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  margin-top: 80px;
+}
+.right_left {
+  position: relative;
+}
+.what {
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
+  background-color: white;
+  border-radius: 50%;
+}
+.burger {
+  display: none;
+}
+@media (max-width: 510px) {
+  .background {
+    width: 100%;
+  }
+  .links {
+    display: none;
+  }
+  .tel {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .lang {
+    display: none;
+  }
+  nav {
+    display: flex;
+    background-color: #313131;
+  }
+  .burger {
+    display: block;
+  }
+  .head {
+    width: 100%;
+  }
+  .left_head {
+    width: 100%;
+  }
+  .left_head h1 {
+    width: 100%;
+    font-size: 42px;
+  }
+  .left_head p {
+    font-size: 28px;
+    line-height: 180%;
+  }
+  .background {
+    width: 100%;
+    height: 950px;
+  }
+  .right_head {
+    width: 100%;
+  }
+  .what {
+    position: absolute;
+    bottom: 60px;
+  }
+  .btn_left{
+    width: 100%;
+    height: 60px;
+  }
+}
