@@ -293,6 +293,55 @@ a {
   gap: 20px;
   margin-top: 20px;
 }
+.vectex {
+  display: flex;
+  gap: 10px;
+}
+.vec_sec7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec7 {
+  padding: 20px 5%;
+}
+.vec_sec7 h2 {
+  color: #494b44;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 40px 0px;
+}
+.vectex p {
+  color: #0e9e2f;
+}
+.date {
+  width: 30%;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+.date_img{
+  width: 420px;
+  height: 250px;
+}
+.date h6{
+  font-size: 24px;
+  color: #494B44;
+  font-weight: 400;
+  width: 70%;
+  margin: 10px 0px;
+}
+.date p{
+  color: #92938F;
+  line-height: 24px;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+span{
+  color: #0e9e2f;
+  font-size: 18px;
+}
 @media (max-width: 510px) {
   .background {
     width: 100%;
@@ -447,13 +496,24 @@ a {
   .sec5 {
     display: none;
   }
-  .vecs{
+  .vecs {
     display: none;
   }
-  .sec6{
+  .sec6 {
     width: 100%;
   }
-  .overflow{
+  .overflow {
     width: 100%;
   }
+  .sec7{
+    width: 100%;
+  }
+  .dates{
+    overflow: auto;
+    gap: 20px;
+  }
+  .date{
+    width: 100%;
+  }
+  
 }
