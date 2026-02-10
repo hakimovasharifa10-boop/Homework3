@@ -84,6 +84,51 @@ a {
 .burger {
   display: none;
 }
+.products {
+  background-color: #686868;
+  padding: 20px 5%;
+}
+.text_sec1 h2 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.text_sec1 p {
+  color: white;
+  width: 40%;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+.card {
+  background-color: #535353;
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 0px 100px 0px 0px;
+}
+.card h6 {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.card p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.card button {
+  background-color: #0e9e2f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
 @media (max-width: 510px) {
   .background {
     width: 100%;
@@ -115,25 +160,44 @@ a {
   }
   .left_head h1 {
     width: 100%;
-    font-size: 42px;
+    font-size: 30px;
   }
   .left_head p {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 180%;
   }
   .background {
     width: 100%;
-    height: 950px;
+    height: 850px;
   }
   .right_head {
     width: 100%;
   }
   .what {
     position: absolute;
-    bottom: 60px;
+    bottom: -40px;
+    right: 20px;
   }
-  .btn_left{
+  .btn_left {
     width: 100%;
     height: 60px;
+  }
+  .products {
+    width: 100%;
+  }
+  .cards {
+    width: 100%;
+    flex-direction: row;
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
+  .card {
+    width: 100%;
+  }
+  .text_sec1{
+    width: 100%;
+  }
+  .text_sec1 p{
+    width: 100%;
   }
 }
