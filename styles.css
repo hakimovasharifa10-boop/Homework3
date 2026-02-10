@@ -242,6 +242,37 @@ a {
 .map {
   margin: 20px 10px;
 }
+.sec5 {
+  background-image: url(./images/mens.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 60%;
+  height: 55vh;
+}
+.sec5 h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 80px;
+}
+.sec5 {
+  text-align: center;
+}
+.sec5 p {
+  font-size: 24px;
+  color: white;
+  width: 40%;
+  margin: 40px auto;
+  line-height: 30px;
+}
+.sec5 button {
+  padding: 14px 50px;
+  background-color: #0e9e2f;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
 @media (max-width: 510px) {
   .background {
     width: 100%;
@@ -390,7 +421,10 @@ a {
   .map {
     width: 100%;
   }
-  .truck{
+  .truck {
     width: 100%;
+  }
+  .sec5 {
+    display: none;
   }
 }
