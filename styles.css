@@ -226,6 +226,22 @@ a {
   width: 50%;
   line-height: 30px;
 }
+.geography {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec4 {
+  padding: 20px 5%;
+}
+.geography h2 {
+  font-size: 40px;
+  color: #494b44;
+  text-transform: uppercase;
+}
+.map {
+  margin: 20px 10px;
+}
 @media (max-width: 510px) {
   .background {
     width: 100%;
@@ -350,7 +366,7 @@ a {
   }
   .sec3 {
     width: 100%;
-    height:1340px;
+    height: 1340px;
   }
   .sides3 {
     flex-direction: column;
@@ -362,7 +378,19 @@ a {
     width: 100%;
     padding-top: 15px;
   }
-  .stock{
+  .stock {
+    width: 100%;
+  }
+  .sec4 {
+    width: 100%;
+  }
+  .geography {
+    flex-direction: column;
+  }
+  .map {
+    width: 100%;
+  }
+  .truck{
     width: 100%;
   }
 }
