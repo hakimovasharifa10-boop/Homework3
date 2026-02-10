@@ -29,14 +29,14 @@ a {
   font-size: 14px;
   text-transform: uppercase;
 }
-.tel {
+.tel1 {
   display: flex;
   gap: 10px;
 }
-.tel p {
+.tel1 p {
   font-size: 18px;
 }
-.email {
+.email1 {
   display: flex;
   gap: 10px;
 }
@@ -444,6 +444,40 @@ textarea {
   color: white;
   margin-top: 40px;
 }
+footer {
+  background-color: #313131;
+  padding: 40px 5%;
+  color: white;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.bot_foot {
+  display: flex;
+  gap: 150px;
+  margin-top: 50px;
+}
+.log_foot {
+  width: 30%;
+  font-size: 20px;
+}
+.row p {
+  font-size: 18px;
+  /* width: 50%; */
+  line-height: 30px;
+}
+.big {
+  color: #787878;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 @media (max-width: 510px) {
   .background {
     width: 100%;
@@ -490,7 +524,7 @@ textarea {
   }
   .what {
     position: absolute;
-    bottom: -40px;
+    bottom: 10px;
     right: 20px;
   }
   .btn_left {
@@ -624,17 +658,42 @@ textarea {
     width: 100%;
     flex-direction: column;
   }
-  .left8{
+  .left8 {
     width: 100%;
   }
-  .right8{
+  .right8 {
     width: 100%;
     border-radius: 0px;
   }
-  .text_input,.tel,.email,select,textarea{
-   width: 400px;
-}
-.quest{
-  width: 100%;
-}
+  .text_input,
+  .tel,
+  .email,
+  select,
+  textarea {
+    width: 350px;
+  }
+  .quest {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .foot {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .rows {
+    flex-direction: column;
+  }
+  .bot_foot{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .log_foot{
+    width: 100%;
+    margin-top: 600px;
+    margin-bottom: 0px;
+  }
 }
